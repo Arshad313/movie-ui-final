@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+#  MOVIE-UI in ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This a movie website is done with Reactjs and NodeJs
 
-## Available Scripts
+Website actually consist of 2 pages 
+Homepage and favouritepage 
 
-In the project directory, you can run:
+### Home Page
 
-### `npm start`
+Homepage consist of header, a Hero section and the content section with Movie cards are displayed
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Header has search area and favorite button 
+Search Area - when we type the wanted movie and press enter the movies will shown in this content area
+favourite Button - redirects to favourite pages
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In search input we can search for the movie and its gonna displayed in the content area
+When Type a movie name and click enter we gonna get the result movie details in the content area ( data in data.json file)
 
-### `npm test`
+in hero section swiper is used for pagination
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+in contetnt section only 2 rows of movies shown(8 cards) 
 
-### `npm run build`
+### Favourite Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In MovieCard there is a heart button when we click it turns red and to saved in favourite page when we reclick and remove it goes from the page
+intially favorite page will be null when click favorite it added to favourite page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+/home- redirect to home
+/favorite - favorite page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+link to the website : https://moviearshad.netlify.app
 
-### `npm run eject`
+### `npm i` to install the node module
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `npm start` is to run the project
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
